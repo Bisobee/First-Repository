@@ -1,0 +1,13 @@
+character_name = "Bisola"
+character_age = "17"
+character_occupation = "17"
+
+print("A girl named" + character_name + "is going to be a senior.")
+print("A " + character_occupation + ", " + character_name + " is " + character_age + " years old.")
+
+character_name = "Uncle Fola"
+phrase = "Intro to Python"
+print (character_name + "is Bisola's Uncle.")
+print(character_name + " said, \" Bisola, watch the " + phrase + "video. \"")
+print("Bisola finished the " + phrase + "video and said, \" I learned so much from the " + (phrase.replace("Intro to", "interesting")) + " video " + character_name + "! \""
+)
