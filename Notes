@@ -1,0 +1,65 @@
+#Tuples have square brackets [], not parentheses ().
+# Coordinates are good for tuples because they are unlikely to change.
+#print(coordinates[0])
+
+#Functions:
+'''def sayhi(name, age):
+    print("hello " + name + ", you are " + age)
+
+sayhi("Bee" , "17")
+sayhi("Uncle", "33")
+
+#cube= name of func
+#return returns from the function
+def cube(num):
+   return num*num*num
+print(cube(3))
+
+def cube(num):
+   return num*num*num
+result = cube(4)
+print(result)'''
+
+#If statements:
+#boulion variable
+
+'''is_female = True
+is_tall = False
+
+if is_female or is_tall:
+   print("You are a female or tall or both")
+elif is_female and not(is_tall):
+   print("You are a short female")
+elif not (is_female) and is_tall:
+   print("You are not female but are tall")
+else:
+   print("You are not female or tall or both")'''
+
+#True or False value using a comparison w/ numbers:
+# An ! means not equals
+'''def max_num(num1, num2, num3):
+   if num1 >= num2 and num1 >= num3:
+       return num1
+   elif num2 >= num1 and num2 >= num3:
+       return num2
+   else:
+       return num3
+print(max_num(3, 4, 5))'''
+
+#Dictionary:
+monthConversions = {
+    "Jan": "January",
+    "Feb": "February",
+    "Mar": "March",
+    "Apr": "April",
+    "May": "May",
+    "Jun": "June",
+    "Jul": "July",
+    "Aug":"August",
+    "Sep": "September",
+    "Oct": "October",
+    "Nov": "November",
+    "Dec": "December",
+}
+#print(monthConversions["Mar"])
+#print(monthConversions.get("Luv", "Not a valid key"))
