@@ -1,0 +1,56 @@
+#WhileLoops
+'''i = 1
+while i<= 10:
+    print(i)
+    i += 1 #This is shorthand for i = i + 1
+
+    print("Done with Loop") '''
+
+   #Guessing Game
+'''secret_word = "code"
+guess = ""
+guess_count = 0
+guess_limit = 3
+out_of_guesses = False # This is a Boulion
+
+while guess != secret_word and not(out_of_guesses):
+    if guess_count < guess_limit:
+        guess = input("Enter guess: ")
+        guess_count += 1
+    else:
+        out_of_guesses = True
+
+if out_of_guesses:
+    print("Out of Guesses, YOU LOSE! ")
+else:
+    print("You Win!")'''
+
+#For Loops
+'''friends = ["Sianna", "Maya", "Anna"]
+for name in friends:
+    print(name)
+len(friends) #len = length
+for index in range(len(friends)):
+    print(friends[index])'''
+
+ #Exponent Function
+'''def raise_to_power(base_num, pow_num):
+    result = 1
+    for index in range(pow_num):
+        result = result * base_num
+    return result
+
+print(raise_to_power(3, 4 ))'''
+
+#2D Lists
+number_grid = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9],
+    [0]
+]
+#print(number_grid[2][1])
+
+for row in number_grid:
+    for col in row:
+        print(col)
