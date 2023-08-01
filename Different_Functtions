@@ -1,0 +1,11 @@
+friends = ["Maya", "Sianna", "Carman", "Anna", "Nora", "Kait", "Carmen"]
+friends[1]= "Ella"
+other_friends = ["Hope", "Grace", "Jacob"]
+friends.extend(other_friends)
+friends.insert(2, "Dayo")
+friends.remove("Carman")
+print(friends [0:7])
+friends2 = friends.copy()
+family = ["Tolani", "Teni", "Dad", "Mom"]
+family.sort()
+print(family)
